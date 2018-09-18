@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#map{
+  position: relative;
+}
+#searchbar{
+  background-color: #e4e4e4;
+  width: 200px;
+  height: 600px;
+  z-index: 2;
+  position: absolute;
+  border-radius: 10px;
+  margin: 10px 0 0 10px;
+}
+
+.caret,.chev-right{
+  float: right;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.caret{
+  margin-top: 2.5px;
+}
+.chev-right{
+  font-size: 5px;
+}
+ul{
+  left: -15px;
+  position: relative;
+  bottom: -10px;
+}
+li{
+  list-style: none;
+}
+.mainList{
+  background-color: #c4c4c4;
+  margin-top: 10px;
+  width: 100%; 
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 2px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+}
+.redcount{
+  border: 0.1px solid red;
+  border-radius: 50px;
+  padding: 0 3px;
+  background-color: red;
+  font-size: 8px;
+  color: white;
+  font-weight: normal;
+  position: absolute;
+  bottom: 3px;
+
+}
+.subList{
+  color: #a4a4a4;
+  background-color: #e4e4e4;
+  font-size: 14px;
+  font-weight: normal;
+}
+.subitem{
+  margin-top: 10px !important;
+}
+.red{
+  color: red;
+  font-style: italic;
+}
+.first-listing {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+div#a111.mainList > div.first-listing{
+  background-color: greenyellow;
+}
+div#a112.mainList > div.first-listing{
+  background-color: orange;
+}
+div#a113.mainList > div.first-listing{
+  background-color: gray;
+}
+.escalate{
+  width: 130px;
+  height: auto;
+  color: black;
+  position: absolute;
+  right: -130px;
+  border-radius: 8px;
+  background-color: #e4e4e4;
+  text-align: center;
+  top: 1px;
+}
+.escalate-item{
+  width: 90%;
+  height: 30px;
+  margin: 5px;
+  background-color: #c4c4c4;
+  text-align: center;
+  border-radius: 10px;
+  font-style: normal;
+}
+.activity{
+  width: 70%;
+  display: inline-block;
+}
