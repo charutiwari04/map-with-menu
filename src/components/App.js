@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import ReactMapboxGl, { Layer, Feature } from "react-mapbox-gl";
-import SearchBar from './SearchBar';
+import MainMenu from './MainMenu';
 
 const Map = ReactMapboxGl({ accessToken: 'pk.eyJ1IjoiY2hhcnV0aXdhcmkwNCIsImEiOiJjam01ZmRsYWMweDY2M2trY2NhaHpjeDNzIn0.XmdHPbnuEAfQurPlDUO5Ew' });
 
@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="main">
-      <SearchBar />
+      <MainMenu />
       <Map id="map"
       style="mapbox://styles/mapbox/dark-v9"
       containerStyle={{

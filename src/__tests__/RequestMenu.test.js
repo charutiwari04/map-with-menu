@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Escalate from '../components/Escalate';
+import RequestMenu from '../components/RequestMenu';
 import { shallow, configure, assert } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 configure({ adapter: new Adapter() });
 
-describe('Escalate', () => {
+describe('RequestMenu', () => {
     const minProps = {
         repname: '',
       };
   let wrapper;
   beforeEach(() => {
-    wrapper = shallow(<Escalate />);
+    wrapper = shallow(<RequestMenu />);
   });
 
   it('should render a <div /> with classname as subitem', () => {

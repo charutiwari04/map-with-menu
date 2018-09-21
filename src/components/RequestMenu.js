@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class Escalate extends Component {
+export default class RequestMenu extends Component {
     constructor(props){
       super(props)
       this.state={
